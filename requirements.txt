@@ -1,0 +1,9 @@
+# 本项目核心逻辑仅依赖 Python 标准库（re / math / hashlib / json / dataclasses / collections）
+# 无需安装任何第三方包即可运行。以下为可选的开发辅助依赖。
+
+# 测试（可选）
+pytest>=8.0.0
+
+# 若要接入大模型语义打分（可选）：
+# openai>=1.30.0
+# python-dotenv>=1.0.0
